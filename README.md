@@ -61,10 +61,12 @@ The dashboard provides insights into:
 - Interactive Tooltips
 - Conditional Formatting
 - Dynamic Slicers
-- ToolTip used for day
-    <img alt = "ToolTip Calendar Chart" src ="ToolTip Calendar Chart.png">
+- ToolTip used for date
+<img alt = "ToolTip Calendar Chart" src ="ToolTip Calendar Chart.png">
+
 - ToolTip used for day and hour
-    <img alt = "ToolTip Day and Hour Chart" src ="ToolTip Day and Hour Chart.png">
+<img alt = "ToolTip Day and Hour Chart" src ="ToolTip Day and Hour Chart.png">
+
 ### DAX Functions
 
 - `TOTALMTD()`
