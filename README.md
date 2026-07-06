@@ -6,8 +6,9 @@ An interactive **Power BI dashboard** built to analyze coffee shop sales data, p
 
 
 ## Dataset
-The ![dataset](Top Excel.png) contains 1,49,456 records.
+The dataset contains 1,49,456 records.
 The raw data was cleaned and transformed before visualization.
+<img alt = "Top Excel" src="Top Excel.png">
 
 ---
 
