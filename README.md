@@ -12,22 +12,12 @@ The raw data was cleaned and transformed before visualization.
 
 ---
 
-## 📊 Dashboard Features
+## Dashboard Features
 
-> *(Insert your dashboard GIF here)*
+<img alt = "ecording" src="Recording.gif">
 
-### 📈 KPI Cards
-- Total Sales
-- Total Orders
-- Total Quantity Sold
-- Month-over-Month (MoM) Growth
-- Trend indicators showing increase/decrease compared to the previous month
 
-### 🎛 Interactive Filters
-- Month Slicer
-- Day Slicer
-
-### 📉 Visualizations
+### Visualizations
 - Calendar Heat Map (Dynamic)
 - Daily Sales Analysis with Average Sales Line
 - Sales by Weekday vs Weekend
@@ -38,9 +28,7 @@ The raw data was cleaned and transformed before visualization.
 - Sparkline Trend Charts
 - Interactive Tooltips displaying Sales, Orders, and Quantity Sold
 
----
-
-## 📊 Analysis Performed
+## Analysis Performed
 
 The dashboard provides insights into:
 
@@ -58,9 +46,8 @@ The dashboard provides insights into:
 - Peak Sales Days
 - Customer Purchasing Patterns
 
----
 
-## 🛠 Tools & Techniques Used
+## Tools & Techniques Used
 
 ### Power BI
 
@@ -74,7 +61,10 @@ The dashboard provides insights into:
 - Interactive Tooltips
 - Conditional Formatting
 - Dynamic Slicers
-
+- ToolTip used for day
+    <img alt = "ToolTip Calendar Chart" src ="ToolTip Calendar Chart.png">
+- ToolTip used for day and hour
+    <img alt = "ToolTip Day and Hour Chart" src ="ToolTip Day and Hour Chart.png">
 ### DAX Functions
 
 - `TOTALMTD()`
@@ -86,8 +76,6 @@ The dashboard provides insights into:
 
 ### SQL
 
-> *(Insert SQL query screenshots here)*
-
 SQL was used to:
 
 - Clean the raw dataset
@@ -97,9 +85,7 @@ SQL was used to:
 - Validate Power BI dashboard calculations
 - Write optimized queries for dashboard metrics and insights
 
----
-
-## 💡 Key Insights
+## Key Insights
 
 - Coffee generated the highest revenue among all product categories.
 - Weekday sales were higher than weekend sales.
@@ -108,46 +94,3 @@ SQL was used to:
 - A few products contributed significantly to the overall revenue.
 - The calendar heat map effectively highlighted high-performing sales days.
 - Month-over-Month KPIs made it easy to monitor sales growth and decline.
-
----
-
-## 📁 Repository Structure
-
-```text
-Coffee-Shop-Sales/
-│
-├── Dashboard/
-│   └── Coffee Shop Sales.pbix
-│
-├── Dataset/
-│   └── coffee_shop_sales.xlsx
-│
-├── SQL/
-│   ├── Data_Cleaning.sql
-│   ├── KPI_Queries.sql
-│   └── Analysis_Queries.sql
-│
-├── Images/
-│   ├── dashboard.gif
-│   ├── dashboard.png
-│   ├── dataset.png
-│   └── sql_queries.png
-│
-└── README.md
-```
-
----
-
-## 🚀 Technologies Used
-
-- **Power BI**
-- **SQL**
-- **Microsoft Excel**
-
----
-
-## 📷 Dashboard Preview
-
-> *(Insert your dashboard screenshot here)*
-
----
