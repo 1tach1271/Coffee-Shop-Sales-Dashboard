@@ -1,46 +1,152 @@
-# Coffee Shop Sales
-## used tools
-- power bi
-- sql
+# Coffee Shop Sales Dashboard
 
-# Power BI
-- Heat Map for per day in month using heat map
-    - used tooltip for per day distribution 
-- Graphs like spark line chart for trends over sale
-    - used mathematical functions like selectedvalue format for year month and days to classify the weekend and weekdays and for chart according to it, averagex for days in month
-    - like totalmtd, used symbols according to trend if its increasing or decreasing if yes by how much
-- month average bar chart
-- donut chart for weekdays and weekend sales
-- sales by store location
-- sales by product cateogry
-- sales by product type top 10
-- sales by days and hours 
-    - used tooltip for per day and hour 
-- Slicer for Month and for days in month
+## Project Overview
 
-### the dashboard contains 
-- KPI required
-    - total sales analysis
-    - total order analysis
-    - total quantity sold analysis
-- Charts Requirement
-- calendar heat map that dynamically adjusts based on the selected month from a slicer
-    - color represent the sales darker the shade higher the sales
-- Sales analysis by weekdays and weekend
-- sales analysis by store location
-    - included month over mont(mom) difference metrics based on selected month
-- daily sales analysis with average line
-    - displayed daily sales for selected month using line chart
-    - incorporated an average line on chart to represent the avg daily sales
-    - highlighted bars that exceed the avg sales
-- sales analysis by product category
-    - provided insight about the product categories contribution
-- top 10 products 
-    - displayed 10 top products based on sales volume
-- sales analysis by days and hour
-    - used heat map and tooltip to display the metrics of sales, orders and quanity while hovering over them.
+An interactive **Power BI dashboard** built to analyze coffee shop sales data, providing insights into sales performance, customer purchasing behavior, product trends, and store performance. SQL was used for data cleaning, transformation, and validation of the dashboard metrics.
 
-## SQL
-- used to prove that the insights used in power bi are valid
-- optimized query for all graphs
-- used to clean the data(into date type, removal of null values) and transform it
+
+## Dataset
+The ![dataset](Top Excel.png) contains 1,49,456 records.
+The raw data was cleaned and transformed before visualization.
+
+---
+
+## 📊 Dashboard Features
+
+> *(Insert your dashboard GIF here)*
+
+### 📈 KPI Cards
+- Total Sales
+- Total Orders
+- Total Quantity Sold
+- Month-over-Month (MoM) Growth
+- Trend indicators showing increase/decrease compared to the previous month
+
+### 🎛 Interactive Filters
+- Month Slicer
+- Day Slicer
+
+### 📉 Visualizations
+- Calendar Heat Map (Dynamic)
+- Daily Sales Analysis with Average Sales Line
+- Sales by Weekday vs Weekend
+- Sales by Store Location
+- Sales by Product Category
+- Top 10 Products by Sales
+- Sales by Day & Hour Heat Map
+- Sparkline Trend Charts
+- Interactive Tooltips displaying Sales, Orders, and Quantity Sold
+
+---
+
+## 📊 Analysis Performed
+
+The dashboard provides insights into:
+
+- Overall Sales Performance
+- Total Orders Analysis
+- Total Quantity Sold Analysis
+- Month-over-Month Performance
+- Daily Sales Trends
+- Average Daily Sales
+- Weekday vs Weekend Sales
+- Store-wise Sales Performance
+- Product Category Contribution
+- Top 10 Best-Selling Products
+- Peak Sales Hours
+- Peak Sales Days
+- Customer Purchasing Patterns
+
+---
+
+## 🛠 Tools & Techniques Used
+
+### Power BI
+
+- Data Modeling
+- DAX Measures
+- KPI Cards
+- Heat Maps
+- Bar Charts
+- Donut Charts
+- Sparkline Charts
+- Interactive Tooltips
+- Conditional Formatting
+- Dynamic Slicers
+
+### DAX Functions
+
+- `TOTALMTD()`
+- `SELECTEDVALUE()`
+- `AVERAGEX()`
+- `FORMAT()`
+- Time Intelligence Functions
+- Custom Month-over-Month (MoM) Calculations
+
+### SQL
+
+> *(Insert SQL query screenshots here)*
+
+SQL was used to:
+
+- Clean the raw dataset
+- Convert date columns into appropriate date formats
+- Remove null and inconsistent records
+- Transform the data for analysis
+- Validate Power BI dashboard calculations
+- Write optimized queries for dashboard metrics and insights
+
+---
+
+## 💡 Key Insights
+
+- Coffee generated the highest revenue among all product categories.
+- Weekday sales were higher than weekend sales.
+- Hell's Kitchen recorded the highest sales among all store locations.
+- Morning hours experienced the highest customer activity.
+- A few products contributed significantly to the overall revenue.
+- The calendar heat map effectively highlighted high-performing sales days.
+- Month-over-Month KPIs made it easy to monitor sales growth and decline.
+
+---
+
+## 📁 Repository Structure
+
+```text
+Coffee-Shop-Sales/
+│
+├── Dashboard/
+│   └── Coffee Shop Sales.pbix
+│
+├── Dataset/
+│   └── coffee_shop_sales.xlsx
+│
+├── SQL/
+│   ├── Data_Cleaning.sql
+│   ├── KPI_Queries.sql
+│   └── Analysis_Queries.sql
+│
+├── Images/
+│   ├── dashboard.gif
+│   ├── dashboard.png
+│   ├── dataset.png
+│   └── sql_queries.png
+│
+└── README.md
+```
+
+---
+
+## 🚀 Technologies Used
+
+- **Power BI**
+- **SQL**
+- **Microsoft Excel**
+
+---
+
+## 📷 Dashboard Preview
+
+> *(Insert your dashboard screenshot here)*
+
+---
